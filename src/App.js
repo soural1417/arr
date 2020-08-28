@@ -57,7 +57,7 @@ function Home() {
     <div className="main-container">
      <h6>Areca/ OSMF awareness</h6>
      <p>Creating opportunities for better health decisions</p>
-     <Link className="search" style={{fontSize: 'larger'}} to="/about">DOWNLOAD HERE</Link>
+     <Link className="search" style={{fontSize: 'larger'}} to="/about">DOWNLOA HERE</Link>
  </div>
   );
 }
