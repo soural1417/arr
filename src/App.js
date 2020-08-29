@@ -84,7 +84,9 @@ function Aboutus() {
   let history = useHistory();
   return (
   <div>
-    <p style={{color: "red", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Areca Nut and OSMF</p>
+    <div class="row" style={{paddingTop:"20px"}}><div style={{float:"left", paddingTop:"20px"}}><li onClick={() => history.goBack()} style={{fontSize:"20px", color:"red"}}>&#8678;</li></div><div> <p style={{color: "red", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Areca Nut and OSMF</p></div></div>
+    
+   
     <p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>What is areca nut?</p>
 
     <img src={ require('./images/1.jpg') } style={{padding: "10px", width: "100%"}} />
@@ -138,7 +140,7 @@ cloves, sugar and tobacco wrapped in a betel leaf.</p><img src={ require('./imag
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Relief for tooth ache</p>
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Is a anti-depressant</p> 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>These are not scientifically proven and hence not justifiable reasons to begin the habit.</p><br></br><br></br>
-<button onClick={() => history.goBack()}>Back</button>
+
   </div>
   );
 }
