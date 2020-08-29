@@ -81,6 +81,7 @@ function About() {
 }
 
 function Aboutus() {
+  let history = useHistory();
   return (
   <div>
     <p style={{color: "red", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Areca Nut and OSMF</p>
