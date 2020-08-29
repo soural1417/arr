@@ -25,7 +25,7 @@
         
     
   
-    <div id="root" class="ramnam"></div>
+    <div id="root"></div>
     <script>
         if('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
@@ -36,10 +36,8 @@
         }
         let deferredPrompt;
   var div = document.querySelector('.add-to');
-  var ram = document.querySelector('.ramnam');
 	var button = document.querySelector('.add-to-btn');
   div.style.display = 'none';
-  ram.style.display = 'none';
 
 	window.addEventListener('beforeinstallprompt', (e) => {
 	  // Prevent Chrome 67 and earlier from automatically showing the prompt
@@ -47,7 +45,6 @@
 	  // Stash the event so it can be triggered later.
 	  deferredPrompt = e;
     div.style.display = 'block';
-    ram.style.display = 'block';
 
 	  button.addEventListener('click', (e) => {
 	  // hide our user interface that shows our A2HS button
