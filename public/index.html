@@ -14,11 +14,80 @@
     <title>Areca Nut Awareness</title>
   </head>
   <body>
+    <style>
+      .accordion {
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #262626;
+      }
+      
+      .panel {
+        padding: 0 18px;
+        background-color: black;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div class="main-container" style="position: relative;">
+      <h1 style="color: #fff; width: 300px; text-align: center;letter-spacing: 0.05em;
+      font-family: 'Playfair Display', serif;">Areca nut/ Osmf awareness</h1><br><br>
+<p style="font-size: medium;">Creating opportunities for better health decision</p>
     <div class="add-to" style="z-index: 10;">
-      <button class="add-to-btn search" style="font-size: large;">DOWNLOAD HERE</button>
+      <button class="add-to-btn search" style="font-size: large; color: #fff;">DOWNLOAD HERE</button>
     </div></div>
+    <button class="accordion" >What we do?</button>
+    <div class="panel" style="background-color: black;">
+      <p style="background-color: black;">Awareness is the greatest agent of change.
+        We are on a mission to further that.
+        We use technology to empower citizens through health education.</p>
+    </div>
+    <button class="accordion" >Health professionals:</button>
+<div class="panel" style="background-color: black;">
+  <p style="background-color: black;">The role of Health care professionals should go beyond delivery of medical/ dental care and should extend to include basic education about important health related conditions. This information should be clearly presented and effectively communicated to persuade their patients to change their behaviour. 
+    To this end, the app provides an effective patient education aid that can be used in hospitals and clinics to improve awareness about OSMF and areca nut usage. It can facilitate a person or a community to reflect upon their risk behaviours and change them to reduce their risk and vulnerability.</p>
+</div>
+
+<button class="accordion">Community:</button>
+<div class="panel" style="background-color: black;">
+  <p style="background-color: black;">Knowledge about health conditions improves health seeking behaviour. Therefore, educating communities on Areca nut usage and the effects of OSMF and building awareness of the extent of the problem by connecting with the target population is a huge part of what we do. The app looks to engage its audience to improve their knowledge on the diagnosis, symptoms as well as their treatment options at each stage of the disease. However, we also recognise that awareness has to be translated into an effective behaviour change to have an impact on the problem.
+  </p>
+</div>
+
+<button class="accordion">Impact:</button>
+<div class="panel">
+  <p>We are constantly looking for ways to understand people’s perceptions about the issues at hand and recognize the barriers they face to build long term strategies. We are reminded every day that our project is about the people it serves and we are committed to making the app more accessible and coherent. The app is currently available only in English. However, will soon be rolling out versions in different regional languages</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
     <div id="root" style="top: 0%; position: absolute;"></div>
     <script>
         if('serviceWorker' in navigator) {
