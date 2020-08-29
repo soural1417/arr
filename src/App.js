@@ -11,7 +11,7 @@ import {
 export default function BasicExample() {
   return (
     <Router>
-          <Route exact path="/" component={Home} />
+    
           <Route exact path="/about" component={About} />
           <Route exact path="/aboutus" component={Aboutus} />
           <Route exact path="/effects" component={Effects} />
@@ -52,11 +52,6 @@ export default function BasicExample() {
   );
 }
 
-function Home() {
-  return (<div>ng</div>
-
-  );
-}
 
 function About() {
   return (<>
