@@ -71,8 +71,8 @@ function About() {
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#ff6666", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/aboutus">About</Link><br></br>
       <Link style={{backgroundColor: "#FFB366", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/effects">Effects of Areca nut usage</Link><br></br>
-      <Link style={{backgroundColor: "#97D077", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/diagnosis">Diagnosis of OSMF</Link><br></br>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/stages">Stages and symptoms</Link><br></br>
+      <Link style={{backgroundColor: "#006400", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/diagnosis">Diagnosis of OSMF</Link><br></br>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/stages">Stages and symptoms</Link><br></br>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatment">Treatment</Link><br></br>
       <Link style={{backgroundColor: "#6666FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/benefits">Benefits of Quitting</Link><br></br>
     </div>
@@ -108,7 +108,7 @@ function Aboutus() {
 
 
 
-    <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral submucous fibrosis (OSF) is a chronic disease of the oral cavity which is characterised by the formation of bands of collagen in the cheeks and other parts of the oral cavity progressively leading to loss of mouth opening, loss of speech and other functions. It is highly prevalent in South East Asia, especially in countries like India, Bangladesh, and Pakistan. Consumption of arecanut is strongly associated with the development of OSMF.</p>
+    <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral submucous fibrosis (OSMF) is a chronic disease of the oral cavity which is characterised by the formation of bands of collagen in the cheeks and other parts of the oral cavity progressively leading to loss of mouth opening, loss of speech and other functions. It is highly prevalent in South East Asia, especially in countries like India, Bangladesh, and Pakistan. Consumption of arecanut is strongly associated with the development of OSMF.</p>
     <p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>What are the diffent types of areca nut products?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Indegenous to different parts of India, areca nut is consumed in  different forms. It is also known by different names depending on the geography of consumption</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>PAAN</p>
@@ -148,7 +148,7 @@ function Effects() {let history = useHistory();
   <div>
     <p style={{color: "#ff9933", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Effects of areca nut consumption</p>
     <p style={{color: "#ff9933", padding: "10px", fontSize: "large", textAlign: "left"}}>How will areca nut consumption affect you?</p>
-    <div style={{padding:"10px", width:"100%"}}><iframe width="360" height="250" src="https://www.youtube-nocookie.com/embed/4rzii77SPT8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style={{padding:"10px", width:"100%"}}><iframe width="95%" src="https://www.youtube-nocookie.com/embed/4rzii77SPT8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <p style={{color: "#ff9933", padding: "10px", fontSize: "large", textAlign: "left"}}>Effects on the oral cavity </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Dental attrition <a href="/effecta">(?)</a></p><img src={ require('./images/9.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral Leukoplakia <a href="/effectb">(?)</a> </p><img src={ require('./images/10.jpg') } style={{padding: "10px", width: "100%"}} />
@@ -244,18 +244,18 @@ Oral cancer
 function Diagnosis() {let history = useHistory();
   return (
   <div>
-     <p style={{color: "#97D077", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Diagnosis Of OSMF</p>
+     <p style={{color: "#006400", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>DIAGNOSIS Of OSMF</p>
      <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>OSMF is notoriously known to be a pre-cancerous lesion. A pre-cancerous lesion does not mean that you have cancer. </p>
 
      <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>However, the chances of changes in the mouth transforming into cancer are very high, if the areca nut habit is not stopped immediately. Hence complete stoppage of the habit of areca nut chewing is important to prevent progression to cancer</p>
-    <p style={{color: "#97D077", padding: "10px", fontSize: "large", textAlign: "center"}}>Early diagnosis of this condition is essential as it results in better and faster healing</p>
+    <p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "center"}}>Early diagnosis of this condition is essential as it results in better and faster healing</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The detection and ability to carry out a confirmation biopsy becomes difficult in advanced stages of the condition due to reduced mouth opening, thus early detection is key</p>
-    <h4 style={{color: "#97D077", padding: "10px", fontSize: "large", textAlign: "left"}}>Screening Examination: </h4>
-    <p style={{color: "#97D077", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Who needs it?</p>
-    <p style={{color: "#97D077", padding: "10px", fontSize: "medium", textAlign: "left"}}> Individuals at risk of having OSMF include</p>
+    <h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left"}}>Screening Examination: </h4>
+    <p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Who needs it?</p>
+    <p style={{color: "#006400", padding: "10px", fontSize: "medium", textAlign: "left"}}> Individuals at risk of having OSMF include</p>
     <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Those with an history of areca nut/ smokeless tobacco consumption</p>
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Individuals  experiencing any of the symptoms mentioned earlier</p> 
-<p style={{color: "#97D077", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Individuals  experiencing any of the symptoms mentioned earlier</p>
+<p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Clinical Examination:</p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> A clinical examination is performed by a trained dental professional. A thorough intra and extraoral examination to identify signs and symptoms of OSMF will be conducted. A routine blood test may be prescribed to rule out any nutritional deficiency and to assess hemoglobin levels. </p>
 
  
@@ -265,7 +265,7 @@ function Diagnosis() {let history = useHistory();
  
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Further tests will be prescribed based on the individual’s history and clinical symptoms. </p>
-<h4 style={{color: "#97D077", padding: "10px", fontSize: "large", textAlign: "left"}}>Confirmatory tests</h4>
+<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left"}}>Confirmatory tests</h4>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Biopsy is a procedure where a small part of the tissue is taken from the body and is tested in the laboratory for the confirmation of the suspected disease.</p>
 
  
@@ -274,7 +274,7 @@ function Diagnosis() {let history = useHistory();
 
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The type of biopsy will be determined by the trained health professional based on the nature of the lesion.</p>
-<h4 style={{color: "#97D077", padding: "10px", fontSize: "large", textAlign: "left"}}>What are the different types of biopsies for OSMF?</h4>
+<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left"}}>What are the different types of biopsies for OSMF?</h4>
 
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Punch Biopsy
 </p>
@@ -289,16 +289,16 @@ function Diagnosis() {let history = useHistory();
 function Stages() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Stages and symptoms</p>
-    <p style={{color: "#2BD9FE", padding: "10px", fontSize: "large", textAlign: "center"}}>Evalualate your clinical condition</p>
-    <div style={{padding: "10px", width: "100%"}}><iframe width="360" height="250" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <p style={{color: "#2BD9FE", padding: "10px", fontSize: "large", textAlign: "center"}}>Find out which stage you are in</p>
+    <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Stages and symptoms</p>
+    <p style={{color: "#009999", padding: "10px", fontSize: "large", textAlign: "center"}}>Evalualate your clinical condition</p>
+    <div style={{padding: "10px", width: "100%"}}><iframe width="100%" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <p style={{color: "#009999", padding: "10px", fontSize: "large", textAlign: "center"}}>Find out which stage you are in</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>What is your mouth opening measurement?</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-    <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greaterthan">Greater than 35 mm</Link><br></br>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greater">35-25 mm</Link><br></br>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/mid">25-15 mm</Link><br></br>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/less">Less thank 15 mm</Link><br></br>
+    <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greaterthan">Greater than 35 mm</Link><br></br>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greater">35-25 mm</Link><br></br>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/mid">25-15 mm</Link><br></br>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/less">Less thank 15 mm</Link><br></br>
       </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -307,14 +307,14 @@ function Stages() {let history = useHistory();
 function Early() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Excessive salivation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Burning sensation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sparse brown/black pigmentation</p><img src={ require('./images/16.jpg') } style={{padding: "10px", width: "100%"}} />
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
     <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/no" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
-      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
+    <Link to="/no" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
+      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -323,14 +323,14 @@ function Early() {let history = useHistory();
 function Earlya() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Excessive salivation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Burning sensation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sparse brown/black pigmentation</p><img src={ require('./images/16.jpg') } style={{padding: "10px", width: "100%"}} />
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
     <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
-      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
+    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
+      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -339,7 +339,7 @@ function Earlya() {let history = useHistory();
 function Moderate() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sunken cheeks Loss of naso labial fold <a href="/stagea">(?)</a>
  </p><img src={ require('./images/19.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Vesicle formation <a href="/stageb">(?)</a></p>
@@ -355,10 +355,10 @@ function Moderate() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Hoarseness of voice</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Mild hearing loss</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Weight loss</p>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
      <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/less" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
-      <Link to="/yesb" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
+    <Link to="/less" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
+      <Link to="/yesb" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -367,7 +367,7 @@ function Moderate() {let history = useHistory();
 function Severe() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Reduction in mouth opening</p><img src={ require('./images/20.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Mottled or opaque or white marble like appearance of oral mucosa</p><img src={ require('./images/22.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>De-papillation of tongue <a href="/stagee">(?)</a></p><img src={ require('./images/23.jpg') } style={{padding: "10px", width: "100%"}} />
@@ -388,10 +388,10 @@ function Severe() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Severe hearing loss</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Severe weight loss</p>
 
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
      <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
-      <Link to="/yesc" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
+    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
+      <Link to="/yesc" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -401,7 +401,7 @@ function Yesa() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Early stage </a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Early stage </a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -415,7 +415,7 @@ function Yesb() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Moderate stage </a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Moderate stage </a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -430,7 +430,7 @@ function Yesc() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Severe stage </a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Severe stage </a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -445,7 +445,7 @@ function No() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "350px", padding: "15px", borderRadius: "30px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >
+      <a style={{backgroundColor: "#009999", height: "350px", padding: "15px", borderRadius: "30px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >
 If you currently chew areca nut on a regular basis but do not have any of these symptoms, the chances of you developing these symptoms in the future are HIGH if you do not quit the habit immediately.
 
 However, if you do not have areca chewing habit, and have mouth opening more than 35 mm and none of the symptoms mentioned in the previous page, you are unlikely to develop these symptoms. </a>
@@ -458,20 +458,20 @@ However, if you do not have areca chewing habit, and have mouth opening more tha
 function Treatment() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
+    <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
+    
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Clinical Management</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatd">Quit Now</Link><br></br>
-    </div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Clinical Management</p>
-    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early</Link><br></br>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate</Link><br></br>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe</Link><br></br>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early</Link>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate</Link><br></br>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe</Link><br></br>
       </div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link><br></br>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link>
+    </div><p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatd">Quit Now</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -480,55 +480,55 @@ function Treatment() {let history = useHistory();
 function Benefits() {let history = useHistory();
   return (
   <>
-  <div><p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Benefits</p></div>
+  <div><p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Benefits</p></div>
   
     <ul id="hexGrid" style={{padding:"20px"}}>
     <li class="hex">
       <div class="hexIn">
-        <a class="hexLink" href="/benefita" style={{backgroundColor:"#2BD9FE"}}>
+        <a class="hexLink" href="/benefita" style={{backgroundColor:"#009999"}}>
          
-          <p>Confession 1            Read here  >></p>
+          <p>Testimonial 1            Read here  >></p>
           
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
-        <a class="hexLink" href="/benefitb" style={{backgroundColor:"#2BD9FE"}}>
+        <a class="hexLink" href="/benefitb" style={{backgroundColor:"#009999"}}>
           
-        <p>Confession 2            Read here  >></p>
+        <p>Testimonial 2            Read here  >></p>
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
-        <a class="hexLink" href="benefitc" style={{backgroundColor:"#2BD9FE"}}>
+        <a class="hexLink" href="benefitc" style={{backgroundColor:"#009999"}}>
         
-        <p>Confession 3            Read here  >></p>
+        <p>Testimonial 3            Read here  >></p>
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
-        <a class="hexLink" href="benefitd" style={{backgroundColor:"#2BD9FE"}}>
+        <a class="hexLink" href="benefitd" style={{backgroundColor:"#009999"}}>
         
-        <p>Confession 4            Read here  >></p>
+        <p>Testimonial 4            Read here  >></p>
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
-        <a class="hexLink" href="/benefite" style={{backgroundColor:"#2BD9FE"}}>
+        <a class="hexLink" href="/benefite" style={{backgroundColor:"#009999"}}>
          
-        <p>Confession 5            Read here  >></p>
+        <p>Testimonial 5            Read here  >></p>
         </a>
       </div>
     </li>
     <li class="hex">
       <div class="hexIn">
-        <a class="hexLink" href="benefitf" style={{backgroundColor:"#2BD9FE"}}>
+        <a class="hexLink" href="benefitf" style={{backgroundColor:"#009999"}}>
           
-        <p>Confession 6             Read here  >></p>
+        <p>Testimonial 6             Read here  >></p>
         </a>
       </div>
     </li>
@@ -597,7 +597,7 @@ function Effectd() {let history = useHistory();
 function Stagea() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Normal naso-labial fold</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Normal naso-labial fold</p>
     <img src={ require('./images/32.jpg') } style={{padding: "10px", width: "100%"}} />
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -606,7 +606,7 @@ function Stagea() {let history = useHistory();
 function Stageb() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Vesicle formation </p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Vesicle formation </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>A vesicle is essentially a blister. It is usually less than 5 mm in diameter</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>  </div>
   );
@@ -615,7 +615,7 @@ function Stageb() {let history = useHistory();
 function Stagec() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Petechiae</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Petechiae</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Petechiae are tine purple, red or brown spots in your mouth. They are a result of bleeding under the surface layer of the skin.</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -624,7 +624,7 @@ function Stagec() {let history = useHistory();
 function Staged() {let history = useHistory();
   return (
   <div>
-   <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Rigid oral mucosa</p>
+   <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Rigid oral mucosa</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>This is  due to an increase in the thickness of your cheeks or your lips resulting in a progressive  inability to open the mouth  </p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -633,7 +633,7 @@ function Staged() {let history = useHistory();
 function Stagee() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>De-papillation of tongue </p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>De-papillation of tongue </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Baldness of the tongue characterized by smooth, glossy tongue</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -642,7 +642,7 @@ function Stagee() {let history = useHistory();
 function Stagef() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Nasal intonation of voice</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Nasal intonation of voice</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Speech which has a nasal tone. </p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -651,26 +651,26 @@ function Stagef() {let history = useHistory();
 function Treata() {let history = useHistory();
   return (
     <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Early Stage</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Early Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In the early stages of OSMF, your buccal mucosa would typically look like this: </p><img src={ require('./images/27.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
-  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#2BD9FE", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
+  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#009999", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
   <div class="p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"68%", height: "35px", textAlign: "left", borderRadius: "3px 15px 15px 3px", color: "#fff"}}>What does it do in your mouth?</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"20px"}}>
-  <div style={{width:"30%", paddingRight:"10px", textAlign: "center", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Steroids (Tablets or mouth rinse)</div>
-  <div style={{width:"68%", textAlign:"center", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">It acts on fibroblast cells that produce collagen, the substance that makes the cheeks hard. When taken regularly at the right doses, it will stop the production of new collagen.Steroids also help relieve the burning sensation in the mouth due to its anti-inflammatory effect.</div>
+  <div style={{width:"30%", paddingRight:"10px", textAlign: "justify", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Steroids (Tablets or mouth rinse)</div>
+  <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">It acts on fibroblast cells that produce collagen, the substance that makes the cheeks hard. When taken regularly at the right doses, it will stop the production of new collagen.Steroids also help relieve the burning sensation in the mouth due to its anti-inflammatory effect.</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"0 20px 0 20px"}}>
-  <div style={{width:"30%", paddingRight:"10px", textAlign: "center", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Antioxidants</div>
-  <div style={{width:"68%", textAlign:"center", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">It prevents cell death by reducing inflammation</div>
+  <div style={{width:"30%", paddingRight:"10px", textAlign: "justify", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Antioxidants</div>
+  <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">It prevents cell death by reducing inflammation</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"20px"}}>
-  <div style={{width:"30%", paddingRight:"10px", textAlign: "center", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Nutritional supplements (Iron, Vitamin supplements)</div>
-  <div style={{width:"68%", textAlign:"center", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">They improve your body’s immunity</div>
+  <div style={{width:"30%", paddingRight:"10px", textAlign: "justify", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Nutritional supplements (Iron, Vitamin supplements)</div>
+  <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">They improve your body’s immunity</div>
 </div>
-<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#2BD9FE", fontSize: "15px"}}>
+<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#009999", fontSize: "15px"}}>
 
 After treatment: </p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Since OSMF is an irreversible condition, Early diagnosis and treatment is key. Beginning the treatment at an early stage will relieve your symptoms like burning moth,  pain etc. and stop the further progression of the disease. 
@@ -683,24 +683,25 @@ After treatment: </p>
 function Treatb() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Moderate Stage</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Moderate Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Before treatment, your buccal mucosa would look like this:</p><img src={ require('./images/28.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
-  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#2BD9FE", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
+  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#009999", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
   <div class="p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"68%", height: "35px", textAlign: "left", borderRadius: "3px 15px 15px 3px", color: "#fff"}}>What does it do in your mouth?</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"20px"}}>
-  <div style={{width:"30%", paddingRight:"10px", textAlign: "center", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Steroids (Tablets or mouth rinse)</div>
-  <div style={{width:"68%", textAlign:"center", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">It acts on fibroblast cells that produce collagen, the substance that makes the cheeks hard. When taken regularly at the right doses, it will stop the production of new collagen.Steroids also help relieve the burning sensation in the mouth due to its anti-inflammatory effect.</div>
+  <div style={{width:"30%", paddingRight:"10px", textAlign: "justify", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Steroids (Tablets or mouth rinse)</div>
+  <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">It acts on fibroblast cells that produce collagen, the substance that makes the cheeks hard. When taken regularly at the right doses, it will stop the production of new collagen.Steroids also help relieve the burning sensation in the mouth due to its anti-inflammatory effect.</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"0 20px 0 20px"}}>
-  <div style={{width:"30%", paddingRight:"10px", textAlign: "center", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Enzymes</div>
-  <div style={{width:"68%", textAlign:"center", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">Break down the existing collagen fibers and decreases the hardness in the cheeks</div>
+  <div style={{width:"30%", paddingRight:"10px", textAlign: "justify", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Enzymes</div>
+  <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">Break down the existing collagen fibers and decreases the hardness in the cheeks</div>
   
 </div>
  
-<img src={ require('./images/29a.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29b.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29c.jpg') } style={{padding: "10px", width: "100%"}} />
+<img src={ require('./images/29a.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29b.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29c.jpg') } style={{padding: "10px", width: "100%"}} /><br></br>
+<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>After Treatment:</p>
 <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
@@ -708,12 +709,12 @@ function Treatb() {let history = useHistory();
 function Treatc() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Severe Stage</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Severe Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In this stage, there is a thick band of collagen that has already been formed beneath your tissue that is preventing the opening of your mouth.</p><img src={ require('./images/30.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
-    <div style={{padding:"20px",letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#2BD9FE", width:"80%", height: "100px", textAlign: "center",borderRadius:"20px", color: "#fff", fontSize: "medium", margin:"30px"}}>
+    <div style={{padding:"20px",letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#009999", width:"80%", height: "100px", textAlign: "center",borderRadius:"20px", color: "#fff", fontSize: "medium", margin:"30px"}}>
 The only option at this stage is the surgical removal of the collagen bands followed by physiotherapy.</div>
-    <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#2BD9FE", fontSize: "15px"}}>
+    <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#009999", fontSize: "15px"}}>
 
 After treatment: </p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>You can observe a reduction in the amount of collagen following surgery. When surgery is followed up with physiotherapy, you can expect significant improvements in your mouth opening. 
@@ -728,7 +729,7 @@ After treatment: </p>
 function Treatd() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Quitting areca nut habit is the first step in the treatment of OSMF.</p>
 
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>For assistance with quitting areca nut, contact national helpline: 011-22901701 </p>
@@ -741,8 +742,8 @@ function Treatd() {let history = useHistory();
 function Treate() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
-    <iframe width="360" height="250" src="https://www.youtube-nocookie.com/embed/bF4p3rUMANs?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
+    <iframe width="100%" src="https://www.youtube-nocookie.com/embed/bF4p3rUMANs?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
@@ -751,7 +752,7 @@ function Benefita() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Lilly Mendonca</a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Lilly Mendonca</a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -765,7 +766,7 @@ function Benefitb() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Sundari Poojary</a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Sundari Poojary</a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -779,7 +780,7 @@ function Benefitc() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Dulcin Dsouza</a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Dulcin Dsouza</a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -793,7 +794,7 @@ function Benefitd() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Unknown</a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Anonymous</a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -807,7 +808,7 @@ function Benefite() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Unknown</a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Anonymous</a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -821,7 +822,7 @@ function Benefitf() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Unknown</a>
+      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" > Anonymous</a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
