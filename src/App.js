@@ -68,7 +68,7 @@ function About() {
       <h1 className="head">Areca nut/ OSMF awareness</h1>
     </div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#ff6666", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/aboutus">About</Link><br></br>
+      <Link style={{backgroundColor: "#ff6666", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/aboutus">Aboutt</Link><br></br>
       <Link style={{backgroundColor: "#FFB366", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/effects">Effects of Areca nut usage</Link><br></br>
       <Link style={{backgroundColor: "#97D077", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/diagnosis">Diagnosis of OSMF</Link><br></br>
       <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/stages">Stages and symptoms</Link><br></br>
