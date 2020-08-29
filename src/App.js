@@ -4,7 +4,8 @@ import "./app/bootstrap.css";
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  useHistory
 } from "react-router-dom";
 
 export default function BasicExample() {
@@ -79,7 +80,9 @@ function About() {
 }
 
 function Aboutus() {
+  let history = useHistory();
   return (
+    
   <div>
     <p style={{color: "red", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Areca Nut and OSMF</p>
     <p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>What is areca nut?</p>
@@ -135,7 +138,7 @@ cloves, sugar and tobacco wrapped in a betel leaf.</p><img src={ require('./imag
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Relief for tooth ache</p>
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Is a anti-depressant</p> 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>These are not scientifically proven and hence not justifiable reasons to begin the habit.</p><br></br><br></br>
-  </div>
+<div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br></div>
   );
 }
 
