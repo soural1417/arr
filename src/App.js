@@ -71,8 +71,8 @@ function About() {
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#ff6666", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/aboutus">About</Link><br></br>
       <Link style={{backgroundColor: "#FFB366", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/effects">Effects of Areca nut usage</Link><br></br>
-      <Link style={{backgroundColor: "#006400", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/diagnosis">Diagnosis of OSMF</Link><br></br>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/stages">Stages and symptoms</Link><br></br>
+      <Link style={{backgroundColor: "#97D077", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/diagnosis">Diagnosis of OSMF</Link><br></br>
+      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/stages">Stages and symptoms</Link><br></br>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatment">Treatment</Link><br></br>
       <Link style={{backgroundColor: "#6666FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/benefits">Benefits of Quitting</Link><br></br>
     </div>
@@ -162,7 +162,7 @@ function Effects() {let history = useHistory();
     <tr>
     <td></td>
     <td><img src={ require('./images/effects/1.jpg') } style={{padding: "10px", width: "100%"}} /></td>
-    <td> <h4>Brain</h4>
+    <td> <h4 style={{fontFamily: 'Playfair Display'}}>Brain</h4>
 
  
 
@@ -175,7 +175,7 @@ Neurotoxicity.
 Schizophrenia</td>
   </tr>
   <tr>
-    <td><h4> Respiratory system</h4>
+    <td><h4 style={{fontFamily: 'Playfair Display'}}> Respiratory system</h4>
 Asthma</td>
     <td><img src={ require('./images/effects/2.jpg') } style={{padding: "10px", width: "100%"}} /></td>
     <td></td>
@@ -183,12 +183,12 @@ Asthma</td>
   <tr>
     <td></td>
     <td><img src={ require('./images/effects/3.jpg') } style={{padding: "10px", width: "100%"}} /></td>
-    <td><h4>Heart
+    <td><h4 style={{fontFamily: 'Playfair Display'}}>Heart
 
 </h4>Hypertension</td>
   </tr>
   <tr>
-    <td><h4>Digestive system
+    <td><h4 style={{fontFamily: 'Playfair Display'}}>Digestive system
 </h4>Vit A and D deficiency
 
 Hyperlipidemia
@@ -200,13 +200,13 @@ Diabetes</td>
   <tr>
     <td></td>
     <td><img src={ require('./images/effects/5.png') } style={{padding: "10px", width: "100%"}} /></td>
-    <td><h4>Effects on blood
+    <td><h4 style={{fontFamily: 'Playfair Display'}}>Effects on blood
 
 
 </h4>Anaemia</td>
   </tr>
   <tr>
-    <td><h4>Reproductive system
+    <td><h4 style={{fontFamily: 'Playfair Display'}}>Reproductive system
 
 
 
@@ -222,7 +222,7 @@ Erectile dysfunction</td>
   <tr>
     <td></td>
     <td><img src={ require('./images/effects/7.jpg') } style={{padding: "10px", width: "100%"}} /></td>
-    <td><h4>Cancer</h4>Bladder cancer
+    <td><h4 style={{fontFamily: 'Playfair Display'}}>Cancer</h4>Bladder cancer
 
 Lung cancer
 
@@ -250,7 +250,7 @@ function Diagnosis() {let history = useHistory();
      <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>However, the chances of changes in the mouth transforming into cancer are very high, if the areca nut habit is not stopped immediately. Hence complete stoppage of the habit of areca nut chewing is important to prevent progression to cancer</p>
     <p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "center"}}>Early diagnosis of this condition is essential as it results in better and faster healing</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The detection and ability to carry out a confirmation biopsy becomes difficult in advanced stages of the condition due to reduced mouth opening, thus early detection is key</p>
-    <h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left"}}>Screening Examination: </h4>
+    <h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontFamily: 'Playfair Display'}}>Screening Examination: </h4>
     <p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Who needs it?</p>
     <p style={{color: "#006400", padding: "10px", fontSize: "medium", textAlign: "left"}}> Individuals at risk of having OSMF include</p>
     <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Those with an history of areca nut/ smokeless tobacco consumption</p>
@@ -258,14 +258,14 @@ function Diagnosis() {let history = useHistory();
 <p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Clinical Examination:</p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> A clinical examination is performed by a trained dental professional. A thorough intra and extraoral examination to identify signs and symptoms of OSMF will be conducted. A routine blood test may be prescribed to rule out any nutritional deficiency and to assess hemoglobin levels. </p>
 
- 
+
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> The mouth opening will be recorded to assess the severity of the condition and to evaluate the response to treatment during later visits.</p>
 
  
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Further tests will be prescribed based on the individual’s history and clinical symptoms. </p>
-<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left"}}>Confirmatory tests</h4>
+<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontFamily: 'Playfair Display'}}>Confirmatory tests</h4>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Biopsy is a procedure where a small part of the tissue is taken from the body and is tested in the laboratory for the confirmation of the suspected disease.</p>
 
  
@@ -274,7 +274,7 @@ function Diagnosis() {let history = useHistory();
 
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The type of biopsy will be determined by the trained health professional based on the nature of the lesion.</p>
-<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left"}}>What are the different types of biopsies for OSMF?</h4>
+<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left", fontFamily: 'Playfair Display'}}>What are the different types of biopsies for OSMF?</h4>
 
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Punch Biopsy
 </p>
@@ -460,16 +460,16 @@ function Treatment() {let history = useHistory();
   <div>
     <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
     
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Clinical Management</p>
+    <p style={{color: "#009999", padding: "15px", fontSize: "large", textAlign: "center"}}>Clinical Management</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early</Link>
+      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early</Link><br></br>
       <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate</Link><br></br>
       <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe</Link><br></br>
       </div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
+    <p style={{color: "#009999", padding: "15px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link>
-    </div><p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
+    </div><p style={{color: "#009999", padding: "15px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatd">Quit Now</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
@@ -699,9 +699,9 @@ function Treatb() {let history = useHistory();
   <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">Break down the existing collagen fibers and decreases the hardness in the cheeks</div>
   
 </div>
- 
-<img src={ require('./images/29a.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29b.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29c.jpg') } style={{padding: "10px", width: "100%"}} /><br></br>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>After Treatment:</p>
+<img src={ require('./images/29a.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29b.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29c.jpg') } style={{padding: "10px", width: "100%"}} /><br></br>
+
 <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
