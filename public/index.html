@@ -14,12 +14,12 @@
     <title>Areca Nut Awareness</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScrip to run this app.</noscript>
-    <div class="main-container">
-    <div class="add-to">
-      <button class="add-to-btn" style="font-size: large;">DOWNLOAD HERE</button>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="main-container" style="position: relative;">
+    <div class="add-to" style="z-index: 10;">
+      <button class="add-to-btn search" style="font-size: large;">DOWNLOAD HERE</button>
     </div></div>
-    <div id="root"></div>
+    <div id="root" style="top: 0%; position: absolute;"></div>
     <script>
         if('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
