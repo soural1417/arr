@@ -46,8 +46,7 @@ export default function BasicExample() {
           <Route exact path="/benefitc" component={Benefitc} />
           <Route exact path="/benefitd" component={Benefitd} />
           <Route exact path="/benefite" component={Benefite} />
-          <Route exact path="/benefitf
-          " component={Benefitf} />
+          <Route exact path="/benefitf" component={Benefitf} />
     </Router>
   );
 }
