@@ -54,7 +54,12 @@ export default function BasicExample() {
 
 function Home() {
   return(
-<div className="main-container">add button</div>
+<div className="main-container">
+  <h1 style={{padding:"50px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
+    fontFamily: "Playfair Display"}}>Areca nut/ Osmf Awareness</h1><br></br><br></br>
+  <h4 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
+    fontFamily: "Playfair Display"}}>Creating opportunities for better health decisions</h4>
+</div>
   );
 }
 
