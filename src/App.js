@@ -11,8 +11,7 @@ import {
 export default function BasicExample() {
   return (
     <Router>
-      <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={About} />
           <Route exact path="/aboutus" component={Aboutus} />
           <Route exact path="/effects" component={Effects} />
           <Route exact path="/diagnosis" component={Diagnosis} />
@@ -49,14 +48,6 @@ export default function BasicExample() {
           <Route exact path="/benefite" component={Benefite} />
           <Route exact path="/benefitf" component={Benefitf} />
     </Router>
-  );
-}
-
-function Home(){
-  return(
-    <div className="main-container">
-      <button>download here</button>
-    </div>
   );
 }
 
