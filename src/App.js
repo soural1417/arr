@@ -54,7 +54,9 @@ export default function BasicExample() {
 
 function Home(){
   return(
-    <div>ng</div>
+    <div className="main-container">
+      <button>download here</button>
+    </div>
   );
 }
 
