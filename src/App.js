@@ -142,7 +142,7 @@ cloves, sugar and tobacco wrapped in a betel leaf.</p><img src={ require('./imag
   );
 }
 
-function Effects() {
+function Effects() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#ff9933", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Effects of areca nut consumption</p>
@@ -235,12 +235,12 @@ Oral cancer
 
 </td>
   </tr>
-</table>
+</table><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Diagnosis() {
+function Diagnosis() {let history = useHistory();
   return (
   <div>
      <p style={{color: "#97D077", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Diagnosis Of OSMF</p>
@@ -280,12 +280,12 @@ function Diagnosis() {
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Incisional Biopsy</p> 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Both these types of biopsies are minimally invasive and can be carried out in the dentist’s office.</p> <br></br><br></br>
 
-
+<div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Stages() {
+function Stages() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Stages and symptoms</p>
@@ -298,12 +298,12 @@ function Stages() {
       <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greater">35-25 mm</Link><br></br>
       <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/mid">25-15 mm</Link><br></br>
       <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/less">Less thank 15 mm</Link><br></br>
-      </div>
+      </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Early() {
+function Early() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
@@ -314,12 +314,12 @@ function Early() {
     <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/no" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
       <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
-    </div>
+    </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Earlya() {
+function Earlya() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
@@ -330,12 +330,12 @@ function Earlya() {
     <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
       <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
-    </div>
+    </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Moderate() {
+function Moderate() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
@@ -358,12 +358,12 @@ function Moderate() {
      <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/less" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
       <Link to="/yesb" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
-    </div>
+    </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Severe() {
+function Severe() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
@@ -391,12 +391,12 @@ function Severe() {
      <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
       <Link to="/yesc" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
-    </div>
+    </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Yesa() {
+function Yesa() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -405,12 +405,12 @@ function Yesa() {
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
 Your symptoms suggest that you may have Early stage OSMF. Find out your diagnosis and treatment options at this stage. We strongly recommend that you visit the nearest dentist to get a through clinical examination.
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Yesb() {
+function Yesb() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -420,12 +420,12 @@ function Yesb() {
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
 
     Your symptoms suggest that you may have Moderate stage OSMF. Find out your diagnosis and treatment options at this stage. We strongly recommend that you visit the nearest dentist to get a through clinical examination.
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Yesc() {
+function Yesc() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -435,12 +435,12 @@ function Yesc() {
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
 
     Your symptoms suggest that you may have severe stage OSMF. Find out your diagnosis and treatment options at this stage. We strongly recommend that you visit the nearest dentist to get a through clinical examination.
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function No() {
+function No() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -449,12 +449,12 @@ If you currently chew areca nut on a regular basis but do not have any of these 
 
 However, if you do not have areca chewing habit, and have mouth opening more than 35 mm and none of the symptoms mentioned in the previous page, you are unlikely to develop these symptoms. </a>
       
-    </div>
+    </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Treatment() {
+function Treatment() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
@@ -471,12 +471,12 @@ function Treatment() {
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link><br></br>
-    </div>
+    </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Benefits() {
+function Benefits() {let history = useHistory();
   return (
   <>
   <div><p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Benefits</p></div>
@@ -533,11 +533,12 @@ function Benefits() {
     </li>
      
   </ul>
+  <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </>
   );
 }
 
-function Effecta() {
+function Effecta() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Dental attrition </p>
@@ -546,20 +547,21 @@ function Effecta() {
     <p style={{padding: "5px 10px 5px 10px", textAlign: "left", color: "#ff9933", fontSize: "15px"}}>Symptoms:</p>
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* Dental hypersensitivity</p>
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* Tooth discoloration</p>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Effectb() {
+function Effectb() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Leukoplakia</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral Leukoplakia is a thickened, white patch that can form on the insides of the cheeks, gums, tongue or bottom of the mouth. It CAN NOT be scraped off. </p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br></div>
   );
 }
 
-function Effectc() {
+function Effectc() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Peridontal disease</p>
@@ -573,11 +575,11 @@ function Effectc() {
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* Loose teeth</p>
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* Gums pull away from the teeth, making the teeth look long</p>
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* Pus between teeth and gums</p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>  </div>
   );
 }
 
-function Effectd() {
+function Effectd() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Lichinoid lesions </p>
@@ -587,65 +589,65 @@ function Effectd() {
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* White wavy lines</p>
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* Blisters/ ulcers</p>
     <p style={{padding: "5px 10px 5px 20px", textAlign: "justify", color: "#000", fontSize: "15px"}}>* Burning sensation</p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Stagea() {
+function Stagea() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Normal naso-labial fold</p>
     <img src={ require('./images/32.jpg') } style={{padding: "10px", width: "100%"}} />
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Stageb() {
+function Stageb() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Vesicle formation </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>A vesicle is essentially a blister. It is usually less than 5 mm in diameter</p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>  </div>
   );
 }
 
-function Stagec() {
+function Stagec() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Petechiae</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Petechiae are tine purple, red or brown spots in your mouth. They are a result of bleeding under the surface layer of the skin.</p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Staged() {
+function Staged() {let history = useHistory();
   return (
   <div>
    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Rigid oral mucosa</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>This is  due to an increase in the thickness of your cheeks or your lips resulting in a progressive  inability to open the mouth  </p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Stagee() {
+function Stagee() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>De-papillation of tongue </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Baldness of the tongue characterized by smooth, glossy tongue</p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Stagef() {
+function Stagef() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Nasal intonation of voice</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Speech which has a nasal tone. </p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Treata() {
+function Treata() {let history = useHistory();
   return (
     <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Early Stage</p>
@@ -673,11 +675,11 @@ After treatment: </p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Since OSMF is an irreversible condition, Early diagnosis and treatment is key. Beginning the treatment at an early stage will relieve your symptoms like burning moth,  pain etc. and stop the further progression of the disease. 
 
 </p>
-  </div>
+<div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>  </div>
   );
 }
 
-function Treatb() {
+function Treatb() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Moderate Stage</p>
@@ -698,11 +700,11 @@ function Treatb() {
 </div>
  
 <img src={ require('./images/29a.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29b.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29c.jpg') } style={{padding: "10px", width: "100%"}} />
-  </div>
+<div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Treatc() {
+function Treatc() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Severe Stage</p>
@@ -718,11 +720,11 @@ After treatment: </p>
  
 
 </p><img src={ require('./images/31.jpg') } style={{padding: "10px", width: "100%"}} />
-  </div>
+<div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Treatd() {
+function Treatd() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
@@ -731,20 +733,20 @@ function Treatd() {
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>For assistance with quitting areca nut, contact national helpline: 011-22901701 </p>
  
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Or visit: <a href="https://www.nhp.gov.in/quit-tobacco">https://www.nhp.gov.in/quit-tobacco</a></p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Treate() {
+function Treate() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
     <iframe width="360" height="250" src="https://www.youtube-nocookie.com/embed/bF4p3rUMANs?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
 
-function Benefita() {
+function Benefita() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -753,12 +755,12 @@ function Benefita() {
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
     I had a very bad addiction to areca nuts. I couldn’t end my day without consuming it. During one of the visits to my dentist, he advised me to stop consuming areca nut to prevent deteriorating my oral health. So, I decided to follow her advice and to stop eating areca nuts. During the first 6 months, it was very difficult to control the craving, as I suffered from insomnia, aggressive behavior towards everyone, I used to be always frustrated and irritated by others. But slowly and steadily, I was able to control my addiction and I stopped consuming areca nuts and I advise others to do the same for your own health benefit.    
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Benefitb() {
+function Benefitb() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -767,12 +769,12 @@ function Benefitb() {
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
     When I was diagnosed with mouth ulcers, my dentist instructed me to stop consuming areca nuts and gave me information about the bad effects of it. First few months of the anti-areca nut phase was troublesome, as food felt tasteless, had no appetite, and could not sleep for over 6 months. But my strong will to not consume the areca nut won the race and now I don’t feel like eating it even though it is kept right in front of me.
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Benefitc() {
+function Benefitc() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -781,12 +783,12 @@ function Benefitc() {
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
     I have been eating areca nut for many years due to peer pressure. Due to which I started having severe ache in my tooth. Dentist explained to me the bad effects of eating areca nut and advised me to stop the intake of areca nut as my teeth had turned into a bad condition which had to be replaced with the new set of artificial teeth. Though it was very difficult in the beginning, I could control myself for over a month. Craving to eat the areca nut increased every day, for which after a month, I could not control it. I started eating it occasionally for over 2-3 months to suppress my craving. Once that phase passed, I stopped eating the areca nut completely.
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Benefitd() {
+function Benefitd() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -795,12 +797,12 @@ function Benefitd() {
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
     For the first time, when I had a severe toothache approx. 30 years ago, that’s when my husband and family members recommend me to eat areca nut along with betel leaves to ease the tooth pain. Over the years, the shape of my teeth and the pain worsened, so I went to the dentist, he asked me to stop eating areca nut due to my poor oral hygiene. The advice struck my mind, which made me want to control my craving to consume areca nut. It almost took 2 years to completely stop eating areca nut.
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Benefite() {
+function Benefite() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -809,12 +811,12 @@ function Benefite() {
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
     As I had a sleepless night due to severe toothache, my elder sister recommended eating areca nut along with betel leaves as she claimed it would soothe the pain. Never know, when it turned out to be a bad addiction. After a couple of years passed, the ache in my tooth increased tremendously, so I visited a nearby dentist, that’s when he advised me to stop consuming areca nut as my teeth were in really bad shape. I had really tough times in the beginning. But I replaced the areca nut with peanuts/other edible products. Now, the pain in my tooth has subsidized. 
-</p>
+</p><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
 }
 
-function Benefitf() {
+function Benefitf() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -823,6 +825,6 @@ function Benefitf() {
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
     I was around 20 years of age when I was introduced to the areca nut, my colleagues used to eat it while we were working. Which made me want to try due to the peer pressure. Slowly, I got addicted to it without even realizing it. As my children grew, my addiction also grew simultaneously, I couldn’t even </p>
-  </div>
+    <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
 }
