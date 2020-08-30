@@ -458,20 +458,20 @@ However, if you do not have areca chewing habit, and have mouth opening more tha
 function Treatment() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
+    <p style={{color: "#3399FF", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
     
-    <p style={{color: "#009999", padding: "15px", fontSize: "large", textAlign: "center"}}>Clinical Management</p>
+    <p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "center"}}>Clinical Management</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early</Link><br></br>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate</Link><br></br>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe</Link><br></br>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early</Link><br></br>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate</Link><br></br>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe</Link><br></br>
       </div>
-    <p style={{color: "#009999", padding: "15px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
+    <p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link>
-    </div><p style={{color: "#009999", padding: "15px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link>
+    </div><p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatd">Quit Now</Link>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatd">Quit Now</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -651,11 +651,11 @@ function Stagef() {let history = useHistory();
 function Treata() {let history = useHistory();
   return (
     <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Early Stage</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Early Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In the early stages of OSMF, your buccal mucosa would typically look like this: </p><img src={ require('./images/27.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
-  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#009999", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
+  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#3399FF", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
   <div class="p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"68%", height: "35px", textAlign: "left", borderRadius: "3px 15px 15px 3px", color: "#fff"}}>What does it do in your mouth?</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"20px"}}>
@@ -670,7 +670,7 @@ function Treata() {let history = useHistory();
   <div style={{width:"30%", paddingRight:"10px", textAlign: "justify", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Nutritional supplements (Iron, Vitamin supplements)</div>
   <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">They improve your body’s immunity</div>
 </div>
-<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#009999", fontSize: "15px"}}>
+<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#3399FF", fontSize: "15px"}}>
 
 After treatment: </p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Since OSMF is an irreversible condition, Early diagnosis and treatment is key. Beginning the treatment at an early stage will relieve your symptoms like burning moth,  pain etc. and stop the further progression of the disease. 
@@ -683,11 +683,11 @@ After treatment: </p>
 function Treatb() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Moderate Stage</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Moderate Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Before treatment, your buccal mucosa would look like this:</p><img src={ require('./images/28.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
-  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#009999", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
+  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#3399FF", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
   <div class="p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"68%", height: "35px", textAlign: "left", borderRadius: "3px 15px 15px 3px", color: "#fff"}}>What does it do in your mouth?</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"20px"}}>
@@ -709,12 +709,12 @@ function Treatb() {let history = useHistory();
 function Treatc() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Severe Stage</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Severe Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In this stage, there is a thick band of collagen that has already been formed beneath your tissue that is preventing the opening of your mouth.</p><img src={ require('./images/30.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
-    <div style={{padding:"20px",letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#009999", width:"80%", height: "100px", textAlign: "center",borderRadius:"20px", color: "#fff", fontSize: "medium", margin:"30px"}}>
+    <div style={{padding:"20px",letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#3399FF", width:"80%", height: "100px", textAlign: "center",borderRadius:"20px", color: "#fff", fontSize: "medium", margin:"30px"}}>
 The only option at this stage is the surgical removal of the collagen bands followed by physiotherapy.</div>
-    <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#009999", fontSize: "15px"}}>
+    <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#3399FF", fontSize: "15px"}}>
 
 After treatment: </p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>You can observe a reduction in the amount of collagen following surgery. When surgery is followed up with physiotherapy, you can expect significant improvements in your mouth opening. 
@@ -729,7 +729,7 @@ After treatment: </p>
 function Treatd() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Quitting areca nut habit is the first step in the treatment of OSMF.</p>
 
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>For assistance with quitting areca nut, contact national helpline: 011-22901701 </p>
@@ -742,7 +742,7 @@ function Treatd() {let history = useHistory();
 function Treate() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
     <iframe width="300" height="315" src="https://www.youtube-nocookie.com/embed/bF4p3rUMANs?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
