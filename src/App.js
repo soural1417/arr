@@ -289,16 +289,16 @@ function Diagnosis() {let history = useHistory();
 function Stages() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Stages and symptoms</p>
-    <p style={{color: "#009999", padding: "10px", fontSize: "large", textAlign: "center"}}>Evalualate your clinical condition</p>
+    <p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Stages and symptoms</p>
+    <p style={{color: "#2BD9FE", padding: "10px", fontSize: "large", textAlign: "center"}}>Evalualate your clinical condition</p>
     <div style={{padding: "10px", width: "100%"}}><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <p style={{color: "#009999", padding: "10px", fontSize: "large", textAlign: "center"}}>Find out which stage you are in</p>
+    <p style={{color: "#2BD9FE", padding: "10px", fontSize: "large", textAlign: "center"}}>Find out which stage you are in</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>What is your mouth opening measurement?</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-    <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greaterthan">Greater than 35 mm</Link><br></br>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greater">35-25 mm</Link><br></br>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/mid">25-15 mm</Link><br></br>
-      <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/less">Less thank 15 mm</Link><br></br>
+    <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greaterthan">Greater than 35 mm</Link><br></br>
+      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greater">35-25 mm</Link><br></br>
+      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/mid">25-15 mm</Link><br></br>
+      <Link style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/less">Less thank 15 mm</Link><br></br>
       </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -307,14 +307,14 @@ function Stages() {let history = useHistory();
 function Early() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Excessive salivation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Burning sensation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sparse brown/black pigmentation</p><img src={ require('./images/16.jpg') } style={{padding: "10px", width: "100%"}} />
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
     <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/no" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
-      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
+    <Link to="/no" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
+      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -323,14 +323,14 @@ function Early() {let history = useHistory();
 function Earlya() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Excessive salivation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Burning sensation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sparse brown/black pigmentation</p><img src={ require('./images/16.jpg') } style={{padding: "10px", width: "100%"}} />
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
     <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
-      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
+    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
+      <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -339,7 +339,7 @@ function Earlya() {let history = useHistory();
 function Moderate() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sunken cheeks Loss of naso labial fold <a href="/stagea">(?)</a>
  </p><img src={ require('./images/19.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Vesicle formation <a href="/stageb">(?)</a></p>
@@ -355,10 +355,10 @@ function Moderate() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Hoarseness of voice</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Mild hearing loss</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Weight loss</p>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
      <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/less" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
-      <Link to="/yesb" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
+    <Link to="/less" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
+      <Link to="/yesb" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -367,7 +367,7 @@ function Moderate() {let history = useHistory();
 function Severe() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Reduction in mouth opening</p><img src={ require('./images/20.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Mottled or opaque or white marble like appearance of oral mucosa</p><img src={ require('./images/22.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>De-papillation of tongue <a href="/stagee">(?)</a></p><img src={ require('./images/23.jpg') } style={{padding: "10px", width: "100%"}} />
@@ -388,10 +388,10 @@ function Severe() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Severe hearing loss</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Severe weight loss</p>
 
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#2BD9FE", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
      <div class="btn-group mr-2" style={{padding: "17%"}}>
-    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
-      <Link to="/yesc" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
+    <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>No</Link>
+      <Link to="/yesc" class="btn mr-5" style={{backgroundColor: "#2BD9FE", width: "100px"}}>Yes</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
   </div>
   );
@@ -401,7 +401,7 @@ function Yesa() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Early stage </a>
+      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Early stage </a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -415,7 +415,7 @@ function Yesb() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Moderate stage </a>
+      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Moderate stage </a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -430,7 +430,7 @@ function Yesc() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Severe stage </a>
+      <a style={{backgroundColor: "#2BD9FE", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >Severe stage </a>
       
     </div>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}} className="divi">
@@ -445,7 +445,7 @@ function No() {let history = useHistory();
   return (
   <div>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <a style={{backgroundColor: "#009999", height: "350px", padding: "15px", borderRadius: "30px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >
+      <a style={{backgroundColor: "#2BD9FE", height: "350px", padding: "15px", borderRadius: "30px", fontFamily: 'Playfair Display'}} class="btn btn-lg" >
 If you currently chew areca nut on a regular basis but do not have any of these symptoms, the chances of you developing these symptoms in the future are HIGH if you do not quit the habit immediately.
 
 However, if you do not have areca chewing habit, and have mouth opening more than 35 mm and none of the symptoms mentioned in the previous page, you are unlikely to develop these symptoms. </a>
