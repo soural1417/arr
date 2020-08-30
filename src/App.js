@@ -655,7 +655,7 @@ function Treata() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In the early stages of OSMF, your buccal mucosa would typically look like this: </p><img src={ require('./images/27.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
-  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#3399FF", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
+  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
   <div class="p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"68%", height: "35px", textAlign: "left", borderRadius: "3px 15px 15px 3px", color: "#fff"}}>What does it do in your mouth?</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"20px"}}>
@@ -687,7 +687,7 @@ function Treatb() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Before treatment, your buccal mucosa would look like this:</p><img src={ require('./images/28.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
-  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#3399FF", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
+  <div class="mr-auto p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"30%", height: "35px", textAlign: "right",borderRadius: "15px 3px 3px 15px", color: "#fff"}}>Drugs</div>
   <div class="p-2" style={{letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#0066cc", width:"68%", height: "35px", textAlign: "left", borderRadius: "3px 15px 15px 3px", color: "#fff"}}>What does it do in your mouth?</div>
 </div>
 <div class="d-flex justify-content-center" style={{padding:"20px"}}>
