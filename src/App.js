@@ -460,16 +460,16 @@ function Treatment() {let history = useHistory();
   <div>
     <p style={{color: "#3399FF", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
     
-    <p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "left"}}>Clinical Management</p>
+    <p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", textAlign: "left"}}>Clinical Management</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early Stage</Link><br></br>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate Stage</Link><br></br>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe Stage</Link><br></br>
       </div>
-    <p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "left"}}>Oral Physiotherapy</p>
+    <p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", textAlign: "left"}}>Oral Physiotherapy</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link>
-    </div><p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "left"}}>Quitting areca nut habit</p>
+    </div><p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", textAlign: "left"}}>Quitting areca nut habit</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatd">Quit Now</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
