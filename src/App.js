@@ -291,7 +291,7 @@ function Stages() {let history = useHistory();
   <div>
     <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Stages and symptoms</p>
     <p style={{color: "#009999", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Evalualate your clinical condition</p>
-    <div style={{width: "100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style={{width: "100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br></br>
     <p style={{color: "#009999", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Find out which stage you are in</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>What is your mouth opening measurement?</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
