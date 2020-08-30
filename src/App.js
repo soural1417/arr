@@ -462,9 +462,9 @@ function Treatment() {let history = useHistory();
     
     <p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "center"}}>Clinical Management</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
-      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early</Link><br></br>
-      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate</Link><br></br>
-      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe</Link><br></br>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early Stage</Link><br></br>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate Stage</Link><br></br>
+      <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe Stage</Link><br></br>
       </div>
     <p style={{color: "#3399FF", padding: "15px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
@@ -480,7 +480,7 @@ function Treatment() {let history = useHistory();
 function Benefits() {let history = useHistory();
   return (
   <>
-  <div><p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Benefits</p></div>
+  <div><p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Benefits of quitting</p></div>
   
     <ul id="hexGrid" style={{padding:"20px"}}>
     <li class="hex">
@@ -699,6 +699,7 @@ function Treatb() {let history = useHistory();
   <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">Break down the existing collagen fibers and decreases the hardness in the cheeks</div>
   
 </div>
+<br></br>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>After Treatment:</p>
 <img src={ require('./images/29a.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29b.jpg') } style={{padding: "10px", width: "100%"}} /><img src={ require('./images/29c.jpg') } style={{padding: "10px", width: "100%"}} /><br></br>
 
