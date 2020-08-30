@@ -670,10 +670,10 @@ function Treata() {let history = useHistory();
   <div style={{width:"30%", paddingRight:"10px", textAlign: "justify", padding:"5px", letterSpacing:"0.05em", fontFamily:"platfair-display"}} className="divv">Nutritional supplements (Iron, Vitamin supplements)</div>
   <div style={{width:"68%", textAlign:"justify", padding:"5px", letterSpacing:"0.05em",fontFamily:"platfair-display"}} className="divv">They improve your body’s immunity</div>
 </div>
-<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#3399FF", fontSize: "15px"}}>
+<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#3399FF", fontSize: "15px", fontWeight: "bold"}}>
 
 After treatment: </p>
-<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Since OSMF is an irreversible condition, Early diagnosis and treatment is key. Beginning the treatment at an early stage will relieve your symptoms like burning moth,  pain etc. and stop the further progression of the disease. 
+<p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Since OSMF is an irreversible condition, Early diagnosis and treatment is key. Beginning the treatment at an early stage will relieve your symptoms like burning mouth,  pain etc. and stop the further progression of the disease. 
 
 </p>
 <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>  </div>
