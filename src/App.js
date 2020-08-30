@@ -85,8 +85,8 @@ function Aboutus() {
   return (
     
   <div>
-    <p style={{color: "red", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Areca Nut and OSMF</p>
-    <p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>What is areca nut?</p>
+    <p style={{color: "red", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Areca Nut and OSMF</p>
+    <p style={{color: "red", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>What is areca nut?</p>
 
     <img src={ require('./images/1.jpg') } style={{padding: "10px", width: "100%"}} />
 
@@ -97,7 +97,7 @@ function Aboutus() {
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Areca nut, commonly known as betel nut, is grown widely in various parts of India. The term “Areca” originated from the kannada term “Adike” and its roots in India dates back to the pre-Vedic period, Indus Valley Civilization.</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The betel nut is usually chewed after wrapping it in betel leaf along with calcium hydroxide (slaked lime). Spices like clove, cardamom, catechu (kattha) are added to give it extra flavor. It has a mild stimulant effect on the body and creates a feeling of euphoria on the users. It is the fourth most psychoactive substance.</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In many parts of India, chewing the mixture of areca nut and betel leaf is a popular cultural practice dating back to thousands of years. Its symbolism lies in its use during auspicious events like weddings. It is also an important part of Ayurvedic medicines. Its low cost and glamorization as Pan masala, Supari Mix, Betel quid by popular media have increased its everyday consumption. Its consumption is widespread, with consumers from all walks of life.</p>
-    <p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>What is OSMF?</p>
+    <p style={{color: "red", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>What is OSMF?</p>
 
 
 
@@ -109,7 +109,7 @@ function Aboutus() {
 
 
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral submucous fibrosis (OSMF) is a chronic disease of the oral cavity which is characterised by the formation of bands of collagen in the cheeks and other parts of the oral cavity progressively leading to loss of mouth opening, loss of speech and other functions. It is highly prevalent in South East Asia, especially in countries like India, Bangladesh, and Pakistan. Consumption of arecanut is strongly associated with the development of OSMF.</p>
-    <p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>What are the diffent types of areca nut products?</p>
+    <p style={{color: "red", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>What are the diffent types of areca nut products?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Indegenous to different parts of India, areca nut is consumed in  different forms. It is also known by different names depending on the geography of consumption</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>PAAN</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>It is a mixture of areca nut, slaked lime, cardamom, cinnamon, coconut,
@@ -129,11 +129,11 @@ cloves, sugar and tobacco wrapped in a betel leaf.</p><img src={ require('./imag
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>It is a mixture of crushed betel nut, tobacco,  and sweet or savoury flavorings.</p><img src={ require('./images/7.jpg') } style={{padding: "10px", width: "100%"}} />
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>PAAN MASALA</p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Mix of betel leaf with lime, areca nut, clove cardamom, mint and tobacco in the form of granules.</p><img src={ require('./images/8.jpg') } style={{padding: "10px", width: "100%"}} />
-<p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>Prevalence of areca nut consumption</p><img src={ require('./images/prev.jpg') } style={{padding: "10px", width: "100%"}} />
+<p style={{color: "red", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>Prevalence of areca nut consumption</p><img src={ require('./images/prev.jpg') } style={{padding: "10px", width: "100%"}} />
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In India, around 30% of men and 12% of women chew some form of tobacco like paan masala, gutka. etc. (products that contain areca nut). The use of areca nut with tobacco is higher in rural areas compared to urban areas. The highest consumption of Areca Nut products is in the Northeastern parts of the country followed by Eastern states, while lowest prevalence has been recorded in  North India.  In Karnataka consumption is around 16%. 
 
 </p>
-<p style={{color: "red", padding: "10px", fontSize: "large", textAlign: "left"}}>Myths about areca nut consumption</p>
+<p style={{color: "red", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>Myths about areca nut consumption</p>
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The two common reasons why people start chewing areca nut are</p>
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Relief for tooth ache</p>
@@ -146,10 +146,10 @@ cloves, sugar and tobacco wrapped in a betel leaf.</p><img src={ require('./imag
 function Effects() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#ff9933", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Effects of areca nut consumption</p>
-    <p style={{color: "#ff9933", padding: "10px", fontSize: "large", textAlign: "left"}}>How will areca nut consumption affect you?</p>
+    <p style={{color: "#ff9933", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Effects of areca nut consumption</p>
+    <p style={{color: "#ff9933", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>How will areca nut consumption affect you?</p>
     <div style={{width:"100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/4rzii77SPT8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <p style={{color: "#ff9933", padding: "10px", fontSize: "large", textAlign: "left"}}>Effects on the oral cavity </p>
+    <p style={{color: "#ff9933", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>Effects on the oral cavity </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Dental attrition <a href="/effecta">(?)</a></p><img src={ require('./images/9.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral Leukoplakia <a href="/effectb">(?)</a> </p><img src={ require('./images/10.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Dental Caries</p><img src={ require('./images/11.jpg') } style={{padding: "10px", width: "100%"}} />
@@ -157,7 +157,7 @@ function Effects() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Periodontal disease <a href="/effectc">(?)</a></p><img src={ require('./images/13.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Lichinoid lesions <a href="/effectd">(?)</a></p><img src={ require('./images/14.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral cancer</p><img src={ require('./images/15.jpg') } style={{padding: "10px", width: "100%"}} />
-    <p style={{color: "#ff9933", padding: "10px", fontSize: "large", textAlign: "left"}}>Effects on other parts of the body</p>
+    <p style={{color: "#ff9933", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>Effects on other parts of the body</p>
     <table>
     <tr>
     <td></td>
@@ -244,18 +244,18 @@ Oral cancer
 function Diagnosis() {let history = useHistory();
   return (
   <div>
-     <p style={{color: "#006400", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>DIAGNOSIS Of OSMF</p>
+     <p style={{color: "#006400", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Diagnosis of OSMF</p>
      <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>OSMF is notoriously known to be a pre-cancerous lesion. A pre-cancerous lesion does not mean that you have cancer. </p>
 
      <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>However, the chances of changes in the mouth transforming into cancer are very high, if the areca nut habit is not stopped immediately. Hence complete stoppage of the habit of areca nut chewing is important to prevent progression to cancer</p>
-    <p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "center"}}>Early diagnosis of this condition is essential as it results in better and faster healing</p>
+    <p style={{color: "#006400", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Early diagnosis of this condition is essential as it results in better and faster healing</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The detection and ability to carry out a confirmation biopsy becomes difficult in advanced stages of the condition due to reduced mouth opening, thus early detection is key</p>
-    <h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontFamily: 'Playfair Display'}}>Screening Examination: </h4>
-    <p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Who needs it?</p>
+    <h4 style={{color: "#006400", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left",fontFamily: 'Playfair Display'}}>Screening Examination: </h4>
+    <p style={{color: "#006400", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left",fontStyle: "italic"}}>Who needs it?</p>
     <p style={{color: "#006400", padding: "10px", fontSize: "medium", textAlign: "left"}}> Individuals at risk of having OSMF include</p>
     <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Those with an history of areca nut/ smokeless tobacco consumption</p>
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Individuals  experiencing any of the symptoms mentioned earlier</p> 
-<p style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontStyle: "italic"}}>Clinical Examination:</p>
+<p style={{color: "#006400", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left",fontStyle: "italic"}}>Clinical Examination:</p>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> A clinical examination is performed by a trained dental professional. A thorough intra and extraoral examination to identify signs and symptoms of OSMF will be conducted. A routine blood test may be prescribed to rule out any nutritional deficiency and to assess hemoglobin levels. </p>
 
 
@@ -265,7 +265,7 @@ function Diagnosis() {let history = useHistory();
  
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Further tests will be prescribed based on the individual’s history and clinical symptoms. </p>
-<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left",fontFamily: 'Playfair Display'}}>Confirmatory tests</h4>
+<h4 style={{color: "#006400", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left",fontFamily: 'Playfair Display'}}>Confirmatory tests</h4>
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Biopsy is a procedure where a small part of the tissue is taken from the body and is tested in the laboratory for the confirmation of the suspected disease.</p>
 
  
@@ -274,7 +274,7 @@ function Diagnosis() {let history = useHistory();
 
 
 <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>The type of biopsy will be determined by the trained health professional based on the nature of the lesion.</p>
-<h4 style={{color: "#006400", padding: "10px", fontSize: "large", textAlign: "left", fontFamily: 'Playfair Display'}}>What are the different types of biopsies for OSMF?</h4>
+<h4 style={{color: "#006400", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left", fontFamily: 'Playfair Display'}}>What are the different types of biopsies for OSMF?</h4>
 
 <p style={{padding: "5px 0px 0px 30px", textAlign: "justify", color: "#000", fontSize: "15px"}}>     * Punch Biopsy
 </p>
@@ -289,10 +289,10 @@ function Diagnosis() {let history = useHistory();
 function Stages() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Stages and symptoms</p>
-    <p style={{color: "#009999", padding: "10px", fontSize: "large", textAlign: "center"}}>Evalualate your clinical condition</p>
+    <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Stages and symptoms</p>
+    <p style={{color: "#009999", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Evalualate your clinical condition</p>
     <div style={{width: "100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <p style={{color: "#009999", padding: "10px", fontSize: "large", textAlign: "center"}}>Find out which stage you are in</p>
+    <p style={{color: "#009999", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Find out which stage you are in</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>What is your mouth opening measurement?</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
     <Link style={{backgroundColor: "#009999", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/greaterthan">Greater than 35 mm</Link><br></br>
@@ -307,11 +307,11 @@ function Stages() {let history = useHistory();
 function Early() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Excessive salivation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Burning sensation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sparse brown/black pigmentation</p><img src={ require('./images/16.jpg') } style={{padding: "10px", width: "100%"}} />
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
     <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/no" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
       <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
@@ -323,11 +323,11 @@ function Early() {let history = useHistory();
 function Earlya() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Excessive salivation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Burning sensation</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sparse brown/black pigmentation</p><img src={ require('./images/16.jpg') } style={{padding: "10px", width: "100%"}} />
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
     <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
       <Link to="/yesa" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
@@ -339,7 +339,7 @@ function Earlya() {let history = useHistory();
 function Moderate() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Sunken cheeks Loss of naso labial fold <a href="/stagea">(?)</a>
  </p><img src={ require('./images/19.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Vesicle formation <a href="/stageb">(?)</a></p>
@@ -355,7 +355,7 @@ function Moderate() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Hoarseness of voice</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Mild hearing loss</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Weight loss</p>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
      <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/less" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
       <Link to="/yesb" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
@@ -367,7 +367,7 @@ function Moderate() {let history = useHistory();
 function Severe() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Are you experiencing these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Are you experiencing these symptoms?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Reduction in mouth opening</p><img src={ require('./images/20.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Mottled or opaque or white marble like appearance of oral mucosa</p><img src={ require('./images/22.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>De-papillation of tongue <a href="/stagee">(?)</a></p><img src={ require('./images/23.jpg') } style={{padding: "10px", width: "100%"}} />
@@ -388,7 +388,7 @@ function Severe() {let history = useHistory();
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Severe hearing loss</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Severe weight loss</p>
 
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Do you have some or all of these symptoms?</p>
      <div class="btn-group mr-2" style={{padding: "17%"}}>
     <Link to="/mid" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>No</Link>
       <Link to="/yesc" class="btn mr-5" style={{backgroundColor: "#009999", width: "100px"}}>Yes</Link>
@@ -458,18 +458,18 @@ However, if you do not have areca chewing habit, and have mouth opening more tha
 function Treatment() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#3399FF", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Treatment</p>
+    <p style={{color: "#3399FF", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Treatment</p>
     
-    <p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", textAlign: "left"}}>Clinical Management</p>
+    <p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", fontWeight:"bold", textAlign: "left"}}>Clinical Management</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treata">Early Stage</Link><br></br>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatb">Moderate Stage</Link><br></br>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatc">Severe Stage</Link><br></br>
       </div>
-    <p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", textAlign: "left"}}>Oral Physiotherapy</p>
+    <p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", fontWeight:"bold", textAlign: "left"}}>Oral Physiotherapy</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treate">Watch a video</Link>
-    </div><p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", textAlign: "left"}}>Quitting areca nut habit</p>
+    </div><p style={{color: "#3399FF", padding: "15px", fontSize: "x-large", fontWeight:"bold", textAlign: "left"}}>Quitting areca nut habit</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
       <Link style={{backgroundColor: "#3399FF", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true" to="/treatd">Quit Now</Link>
     </div><div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>
@@ -480,7 +480,7 @@ function Treatment() {let history = useHistory();
 function Benefits() {let history = useHistory();
   return (
   <>
-  <div><p style={{color: "#009999", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Benefits of quitting</p></div>
+  <div><p style={{color: "#009999", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Benefits of quitting</p></div>
   
     <ul id="hexGrid" style={{padding:"20px"}}>
     <li class="hex">
@@ -542,7 +542,7 @@ function Benefits() {let history = useHistory();
 function Effecta() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Dental attrition </p>
+    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Dental attrition </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "left", color: "#ff9933", fontSize: "15px"}}>What is it?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Loss of tooth structure due to tooth to tooth contact.</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "left", color: "#ff9933", fontSize: "15px"}}>Symptoms:</p>
@@ -556,7 +556,7 @@ function Effecta() {let history = useHistory();
 function Effectb() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Leukoplakia</p>
+    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Oral Leukoplakia</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral Leukoplakia is a thickened, white patch that can form on the insides of the cheeks, gums, tongue or bottom of the mouth. It CAN NOT be scraped off. </p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br></div>
   );
@@ -565,7 +565,7 @@ function Effectb() {let history = useHistory();
 function Effectc() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Peridontal disease</p>
+    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Peridontal disease</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "left", color: "#ff9933", fontSize: "15px"}}>What is it?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Periodontal disease is also commonly known  as gum disease. It is the infection of the gums that damages the tissues that surround the teeth. </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "left", color: "#ff9933", fontSize: "15px"}}>Symptoms:</p>
@@ -583,7 +583,7 @@ function Effectc() {let history = useHistory();
 function Effectd() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", textAlign: "center"}}>Lichinoid lesions </p>
+    <p style={{color: "#ff9933", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Lichinoid lesions </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "left", color: "#ff9933", fontSize: "15px"}}>What is it?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>These are changes in your mouth due to reactions between the chemicals in areca nut and the inner surface of your cheeks or gums.</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "left", color: "#ff9933", fontSize: "15px"}}>Symptoms:</p>
@@ -597,7 +597,7 @@ function Effectd() {let history = useHistory();
 function Stagea() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Normal naso-labial fold</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Normal naso-labial fold</p>
     <img src={ require('./images/32.jpg') } style={{padding: "10px", width: "100%"}} />
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -606,7 +606,7 @@ function Stagea() {let history = useHistory();
 function Stageb() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Vesicle formation </p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Vesicle formation </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>A vesicle is essentially a blister. It is usually less than 5 mm in diameter</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br>  </div>
   );
@@ -615,7 +615,7 @@ function Stageb() {let history = useHistory();
 function Stagec() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Petechiae</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Petechiae</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Petechiae are tine purple, red or brown spots in your mouth. They are a result of bleeding under the surface layer of the skin.</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -624,7 +624,7 @@ function Stagec() {let history = useHistory();
 function Staged() {let history = useHistory();
   return (
   <div>
-   <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Rigid oral mucosa</p>
+   <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Rigid oral mucosa</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>This is  due to an increase in the thickness of your cheeks or your lips resulting in a progressive  inability to open the mouth  </p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -633,7 +633,7 @@ function Staged() {let history = useHistory();
 function Stagee() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>De-papillation of tongue </p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>De-papillation of tongue </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Baldness of the tongue characterized by smooth, glossy tongue</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -642,7 +642,7 @@ function Stagee() {let history = useHistory();
 function Stagef() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#009999", padding: "30px", fontSize: "large", textAlign: "center"}}>Nasal intonation of voice</p>
+    <p style={{color: "#009999", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Nasal intonation of voice</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Speech which has a nasal tone. </p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
@@ -651,7 +651,7 @@ function Stagef() {let history = useHistory();
 function Treata() {let history = useHistory();
   return (
     <div>
-    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Early Stage</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Early Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In the early stages of OSMF, your buccal mucosa would typically look like this: </p><img src={ require('./images/27.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
@@ -683,7 +683,7 @@ After treatment: </p>
 function Treatb() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Moderate Stage</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Moderate Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Before treatment, your buccal mucosa would look like this:</p><img src={ require('./images/28.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div class="d-flex container">
@@ -710,7 +710,7 @@ function Treatb() {let history = useHistory();
 function Treatc() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Severe Stage</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Severe Stage</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>In this stage, there is a thick band of collagen that has already been formed beneath your tissue that is preventing the opening of your mouth.</p><img src={ require('./images/30.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>Your treatment options at this stage include: </p>
     <div style={{padding:"20px",letterSpacing:"0.05em", fontFamily:"platfair-display",background: "#3399FF", width:"80%", height: "100px", textAlign: "center",borderRadius:"20px", color: "#fff", fontSize: "medium", margin:"30px"}}>
@@ -730,7 +730,7 @@ After treatment: </p>
 function Treatd() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Quitting areca nut habit</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Quitting areca nut habit</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}> Quitting areca nut habit is the first step in the treatment of OSMF.</p>
 
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>For assistance with quitting areca nut, contact national helpline: 011-22901701 </p>
@@ -743,7 +743,7 @@ function Treatd() {let history = useHistory();
 function Treate() {let history = useHistory();
   return (
   <div>
-    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", textAlign: "center"}}>Oral Physiotherapy</p>
+    <p style={{color: "#3399FF", padding: "30px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Oral Physiotherapy</p>
     <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/bF4p3rUMANs?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}><button onClick={() => history.goBack()}  style={{backgroundColor: "#E8E8E8", height: "60px", padding: "15px", borderRadius: "10px", fontFamily: 'Playfair Display'}} class="btn btn-lg active" role="button" aria-pressed="true"> Go Back</button> </div><br></br><br></br> </div>
   );
