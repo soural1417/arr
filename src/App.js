@@ -148,7 +148,7 @@ function Effects() {let history = useHistory();
   <div>
     <p style={{color: "#ff9933", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Effects of areca nut consumption</p>
     <p style={{color: "#ff9933", padding: "10px", fontSize: "large", textAlign: "left"}}>How will areca nut consumption affect you?</p>
-    <div style={{padding:"10px", width:"100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/4rzii77SPT8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style={{width:"100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/4rzii77SPT8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <p style={{color: "#ff9933", padding: "10px", fontSize: "large", textAlign: "left"}}>Effects on the oral cavity </p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Dental attrition <a href="/effecta">(?)</a></p><img src={ require('./images/9.jpg') } style={{padding: "10px", width: "100%"}} />
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral Leukoplakia <a href="/effectb">(?)</a> </p><img src={ require('./images/10.jpg') } style={{padding: "10px", width: "100%"}} />
@@ -291,7 +291,7 @@ function Stages() {let history = useHistory();
   <div>
     <p style={{color: "#2BD9FE", padding: "10px", fontSize: "xx-large", textAlign: "center"}}>Stages and symptoms</p>
     <p style={{color: "#2BD9FE", padding: "10px", fontSize: "large", textAlign: "center"}}>Evalualate your clinical condition</p>
-    <div style={{padding: "10px", width: "100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div style={{width: "100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <p style={{color: "#2BD9FE", padding: "10px", fontSize: "large", textAlign: "center"}}>Find out which stage you are in</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>What is your mouth opening measurement?</p>
     <div class="btn-group-vertical container d-flex justify-content-center" style={{paddingTop: "50px", alignItems: "center"}}>
