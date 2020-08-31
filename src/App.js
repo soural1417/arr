@@ -67,7 +67,7 @@ function Home() {
    </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
     fontFamily: "Playfair Display"}}> For android: 
    </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
-    fontFamily: "Playfair Display"}}> Click ( &#x22EE;) on the top right corner of the screen → Add to home screen
+    fontFamily: "Playfair Display"}}> Click (&#x22EE;) on the top right corner of the screen → Add to home screen
  </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
     fontFamily: "Playfair Display"}}>   For iOS:
  </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
