@@ -58,8 +58,11 @@ function Home() {
   <h1 style={{padding:"50px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
     fontFamily: "Playfair Display"}}>Areca nut/ OSMF Awareness</h1><br></br><br></br>
   <h4 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
-    fontFamily: "Playfair Display"}}>Creating opportunities for better health decisions</h4>
+    fontFamily: "Playfair Display"}}>Creating opportunities for better health decisions</h4><br></br>
     <Link className="search" to="/about">Start Here</Link>
+    <h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
+    fontFamily: "Playfair Display"}}>Highly recommended to use downloaded version. In case the download button could not be found, select the Add to the home screen button from the three dots from the browser</h6><br></br>
+
 </div>
   );
 }
