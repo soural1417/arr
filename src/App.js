@@ -61,7 +61,8 @@ function Home() {
     fontFamily: "Playfair Display"}}>Creating opportunities for better health decisions</h4><br></br>
     <Link className="search" to="/about">Start Here</Link>
     <h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
-    fontFamily: "Playfair Display"}}>We highly recommend that you use the downloaded version. To download the app, Click the Download now (at the bottom screen) → Add to home screen. In case the Download button does not appear on the screen:
+    fontFamily: "Playfair Display"}}>We highly recommend that you use the downloaded version.</h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
+    fontFamily: "Playfair Display"}}> To download the app, Click the Download now (at the bottom screen) → Add to home screen. In case the Download button does not appear on the screen:
    </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
     fontFamily: "Playfair Display"}}> For android: 
    </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
@@ -69,7 +70,7 @@ function Home() {
  </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
     fontFamily: "Playfair Display"}}>   For iOS:
  </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
-    fontFamily: "Playfair Display"}}>   Click the share button in the center below on the bottom of the screen → Add to home screen</h6><br></br>
+    fontFamily: "Playfair Display"}}>   Click the share button in the center below on the bottom of the screen → Add to home screen</h6><br></br><br></br><br></br>
 
 </div>
   );
