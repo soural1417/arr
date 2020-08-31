@@ -59,7 +59,7 @@ function Home() {
     fontFamily: "Playfair Display"}}>Areca nut/ OSMF Awareness</h1><br></br><br></br>
   <h4 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
     fontFamily: "Playfair Display"}}>Creating opportunities for better health decisions</h4>
-    <Link className="search" to="/about"/>
+    <Link className="search" to="/about">Start Here</Link>
 </div>
   );
 }
