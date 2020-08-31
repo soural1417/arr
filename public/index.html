@@ -36,11 +36,25 @@
       
         
        <div class="add-to">
-				<button class="add-to-btn">Download Here</button>
+				<button class="add-to-btn"  data-amplify-analytics-on='click'
+        data-amplify-analytics-name='click'
+        data-amplify-analytics-attrs='attr1:attr1_value,attr2:attr2_value'>Download Here</button>
 			</div>
   
    
-    
+      <script>
+        var sendEvent = function() {
+            Analytics.record({
+                name: 'click',
+                attributes: {
+                    attr: 'attr', // the default ones
+                    attr1: attr1_value, // defined in the button component
+                    attr2: attr2_value, // defined in the button component
+                }
+            });
+        }
+    </script>
+    <button onclick="sendEvent()"/>
      
 
     <script type="text/javascript">

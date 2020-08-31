@@ -10,6 +10,30 @@ import {
 import Amplify, { Analytics } from 'aws-amplify';
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
+Analytics.autoTrack('event', {
+  // REQUIRED, turn on/off the auto tracking
+  enable: true,
+  // OPTIONAL, events you want to track, by default is 'click'
+  events: ['click'],
+  // OPTIONAL, the prefix of the selectors, by default is 'data-amplify-analytics-'
+  // in order to avoid collision with the user agent, according to https://www.w3schools.com/tags/att_global_data.asp
+  // always put 'data' as the first prefix
+  selectorPrefix: 'data-amplify-analytics-',
+  // OPTIONAL, the service provider, by default is the Amazon Pinpoint
+  provider: 'AWSPinpoint',
+  // OPTIONAL, the default attributes of the event, you can either pass an object or a function 
+  // which allows you to define dynamic attributes
+  attributes: {
+      attr: 'attr'
+  }
+  // when using function
+  // attributes: () => {
+  //    const attr = somewhere();
+  //    return {
+  //        myAttr: attr
+  //    }
+  // }
+});
 export default function BasicExample() {
   return (
     <Router>
