@@ -70,7 +70,7 @@ function Home() {
  </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
     fontFamily: "Playfair Display"}}>   For iOS:
  </h6><h6 style={{paddingTop:"0px",color:"#fff", width:"300px",textAlign:"center",letterSpacing: "0.05em",
-    fontFamily: "Playfair Display"}}>   Click the share button in the center below on the bottom of the screen → Add to home screen</h6><br></br><br></br><br></br>
+    fontFamily: "Playfair Display"}}>   Click the share button on the bottom of the screen → Add to home screen</h6><br></br><br></br><br></br>
 
 </div>
   );
@@ -122,7 +122,7 @@ function Aboutus() {
 
 
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Oral submucous fibrosis (OSMF) is a chronic disease of the oral cavity which is characterised by the formation of bands of collagen in the cheeks and other parts of the oral cavity progressively leading to loss of mouth opening, loss of speech and other functions. It is highly prevalent in South East Asia, especially in countries like India, Bangladesh, and Pakistan. Consumption of arecanut is strongly associated with the development of OSMF.</p>
-    <p style={{color: "red", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>What are the diffent types of areca nut products?</p>
+    <p style={{color: "red", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "left"}}>What are the different types of areca nut products?</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>Indegenous to different parts of India, areca nut is consumed in  different forms. It is also known by different names depending on the geography of consumption</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>PAAN</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "justify", color: "#000", fontSize: "15px"}}>It is a mixture of areca nut, slaked lime, cardamom, cinnamon, coconut,
@@ -303,7 +303,7 @@ function Stages() {let history = useHistory();
   return (
   <div>
     <p style={{color: "#009999", padding: "10px", fontSize: "xx-large", fontWeight:"bold", textAlign: "center"}}>Stages and symptoms</p>
-    <p style={{color: "#009999", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Evalualate your clinical condition</p>
+    <p style={{color: "#009999", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Evaluate your clinical condition</p>
     <div style={{width: "100%"}}><iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/oJ9mhS7aQUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br></br>
     <p style={{color: "#009999", padding: "10px", fontSize: "large", fontWeight:"bold", textAlign: "center"}}>Find out which stage you are in</p>
     <p style={{padding: "5px 10px 5px 10px", textAlign: "center", color: "#000", fontSize: "15px"}}>What is your mouth opening measurement?</p>
