@@ -9,6 +9,10 @@
 		"arr": {
 			"service": "Pinpoint",
 			"providerPlugin": "awscloudformation"
+		},
+		"arrKinesis": {
+			"service": "Kinesis",
+			"providerPlugin": "awscloudformation"
 		}
 	}
 }
