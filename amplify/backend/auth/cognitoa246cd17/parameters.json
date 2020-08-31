@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "arr_identitypool_6f442b7c",
+    "identityPoolName": "arr_identitypool_27d4063a",
     "allowUnauthenticatedIdentities": true,
     "authSelections": "identityPoolOnly",
-    "resourceName": "cognito9d445408",
+    "resourceName": "cognitoa246cd17",
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",

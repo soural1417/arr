@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"cognito9d445408": {
+		"cognitoa246cd17": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation"
 		}
@@ -8,10 +8,6 @@
 	"analytics": {
 		"arr": {
 			"service": "Pinpoint",
-			"providerPlugin": "awscloudformation"
-		},
-		"arrKinesis": {
-			"service": "Kinesis",
 			"providerPlugin": "awscloudformation"
 		}
 	}

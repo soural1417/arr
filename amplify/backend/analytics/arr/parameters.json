@@ -1,11 +1,11 @@
 {
     "appName": "arr",
-    "roleName": "pinpointLambdaRole18997867",
-    "cloudformationPolicyName": "cloudformationPolicy18997867",
-    "cloudWatchPolicyName": "cloudWatchPolicy18997867",
-    "pinpointPolicyName": "pinpointPolicy18997867",
-    "authPolicyName": "pinpoint_amplify_18997867",
-    "unauthPolicyName": "pinpoint_amplify_18997867",
+    "roleName": "pinpointLambdaRole5d8d186b",
+    "cloudformationPolicyName": "cloudformationPolicy5d8d186b",
+    "cloudWatchPolicyName": "cloudWatchPolicy5d8d186b",
+    "pinpointPolicyName": "pinpointPolicy5d8d186b",
+    "authPolicyName": "pinpoint_amplify_5d8d186b",
+    "unauthPolicyName": "pinpoint_amplify_5d8d186b",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },
