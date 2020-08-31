@@ -10,7 +10,6 @@ import {
 import Amplify, { Analytics } from 'aws-amplify';
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
-Analytics.record({ name: 'about' });
 export default function BasicExample() {
   return (
     <Router>
